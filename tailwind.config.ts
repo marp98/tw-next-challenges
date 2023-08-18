@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'outfit': ['Outfit', 'sans'],  
+      },
+      colors: {
+        'grayish-blue': '#D5E1EF',
+        'dark-blue': '#212E47',
+        'light-gray': '#A9ABB7'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
